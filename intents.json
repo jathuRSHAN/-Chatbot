@@ -1,0 +1,232 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "Greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hey! How can I help you?",
+        "Good day! What brings you here?"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "what services do you provide",
+        "health services",
+        "medical assistance"
+      ],
+      "responses": [
+        "Our University Health Center offers a range of medical services including general check-ups, vaccinations, counseling, and more."
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "how can I schedule an appointment",
+        "book a medical appointment",
+        "appointment process"
+      ],
+      "responses": [
+        "You can schedule an appointment by calling our Health Center or using our online booking system. What works best for you?"
+      ]
+    },
+    {
+      "tag": "doctors",
+      "patterns": [
+        "who are the doctors",
+        "medical staff",
+        "health professionals"
+      ],
+      "responses": [
+        "We have a dedicated team of experienced doctors and health professionals. You can find details about our staff on our website."
+      ]
+    },
+    {
+      "tag": "clinicHours",
+      "patterns": [
+        "what are the clinic hours",
+        "health center opening hours",
+        "operation hours"
+      ],
+      "responses": [
+        "The University Health Center is open from 8:00 am to 6:00 pm, Monday to Friday. We are closed on weekends."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "emergency services",
+        "urgent care",
+        "emergency contact"
+      ],
+      "responses": [
+        "In case of emergencies, please call 911. If you need immediate assistance on campus, contact our emergency hotline at [Emergency Hotline Number]."
+      ]
+    },
+    {
+      "tag": "prescription",
+      "patterns": [
+        "how do I get a prescription",
+        "medication",
+        "prescription process"
+      ],
+      "responses": [
+        "To get a prescription, schedule a consultation with one of our doctors. They will assess your condition and provide the necessary prescription if required."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "You're welcome! If you have any more questions, feel free to ask.",
+        "Glad I could assist you!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a Good Day",
+        "bye",
+        "see ya"
+      ],
+      "responses": [
+        "Take care! If you need anything else, don't hesitate to reach out.",
+        "Goodbye! Stay healthy!",
+        "See you later!"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "",
+        "gvsd",
+        "asbhk"
+      ],
+      "responses": [
+        "Sorry, I didn't catch that. Can you please provide more information?",
+        "I'm not sure I understand. Could you clarify?",
+        "Apologies, I couldn't comprehend that. Can you rephrase?"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "I'm not feeling well",
+        "I have symptoms",
+        "feeling sick",
+        "unwell"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Can you describe your symptoms? It will help me guide you better."
+      ]
+    },
+    {
+      "tag": "vaccinations",
+      "patterns": [
+        "Do you provide vaccinations?",
+        "Vaccination schedule",
+        "Immunization services"
+      ],
+      "responses": [
+        "Yes, we offer a range of vaccinations. You can check our vaccination schedule on our website or consult with our medical staff."
+      ]
+    },
+    {
+      "tag": "mentalHealth",
+      "patterns": [
+        "mental health support",
+        "counseling services",
+        "stress management"
+      ],
+      "responses": [
+        "We understand the importance of mental health. Our health center provides counseling services to support your mental well-being."
+      ]
+    },
+    {
+      "tag": "pharmacy",
+      "patterns": [
+        "Is there a pharmacy on campus?",
+        "Where can I fill my prescription?",
+        "Pharmacy services"
+      ],
+      "responses": [
+        "Yes, we have a pharmacy on campus. You can fill your prescription there. It's located [provide location details]."
+      ]
+    },
+    {
+      "tag": "medicalRecords",
+      "patterns": [
+        "How can I access my medical records?",
+        "Medical history",
+        "Patient records"
+      ],
+      "responses": [
+        "You can request access to your medical records through our online portal or by visiting the health center in person. We prioritize the privacy and security of your medical information."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "I have allergies",
+        "allergic reactions",
+        "food allergies"
+      ],
+      "responses": [
+        "Noted. Please inform our medical staff about your allergies during your consultation so they can provide appropriate care."
+      ]
+    },
+    {
+      "tag": "healthTips",
+      "patterns": [
+        "Any health tips?",
+        "How can I stay healthy?",
+        "Wellness advice"
+      ],
+      "responses": [
+        "Maintaining a balanced diet, regular exercise, and adequate sleep contribute to overall well-being. If you have specific health goals, our health professionals can provide personalized advice."
+      ]
+    },
+    {
+      "tag": "followUp",
+      "patterns": [
+        "Do I need a follow-up appointment?",
+        "Follow-up care",
+        "Post-appointment instructions"
+      ],
+      "responses": [
+        "Whether you need a follow-up appointment depends on your condition. Our doctors will advise you on the next steps during your consultation."
+      ]
+    },
+    {
+      "tag": "prescriptionRefill",
+      "patterns": [
+        "How can I refill my prescription?",
+        "Renew medication",
+        "Prescription expiration"
+      ],
+      "responses": [
+        "You can request a prescription refill through our online portal or by contacting our health center. Make sure to check the expiration date on your prescription."
+      ]
+    }
+  ]
+}
